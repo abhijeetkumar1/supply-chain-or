@@ -1,7 +1,7 @@
 pulp
 ortools
 pyomo
-highspy
+highspy==1.12.0  # must match the HiGHS bundled in ortools 9.15, or mixing PuLP + OR-Tools segfaults
 scipy
 simpy
 pandas
