@@ -1,0 +1,11 @@
+pulp
+ortools
+pyomo
+highspy
+scipy
+simpy
+pandas
+numpy
+plotly
+pyyaml
+ipykernel
