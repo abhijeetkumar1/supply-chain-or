@@ -1,6 +1,6 @@
 """Day 3, exercise 5: How much should we order when demand is uncertain? (the newsvendor)
 
-Script version of 05_newsvendor.ipynb. Same steps, printed to the terminal:
+Script version of notebooks/05_newsvendor.ipynb. Same steps, printed to the terminal:
     1. The story: order before you know demand; leftovers cost money, so do lost sales
     2. One item by hand: try every order quantity against 26 weeks of possible demand
     3. The critical ratio: why the best order is a quantile of the forecast
@@ -9,7 +9,7 @@ Script version of 05_newsvendor.ipynb. Same steps, printed to the terminal:
     6. Change the margins: when does the quantile beat the mean, and by how much? (Plotly)
 
 Needs data/processed/m5_ca1_weekly.csv: run .venv/bin/python data/prepare_m5.py first.
-Run: .venv/bin/python notebooks/05_newsvendor.py
+Run: .venv/bin/python scripts/05_newsvendor.py
 """
 
 from pathlib import Path

@@ -1,6 +1,6 @@
 """Day 3, exercise 6: When should a store reorder, and how much? The (s, S) policy.
 
-Script version of 06_policy_sim.ipynb. Same steps, printed to the terminal:
+Script version of notebooks/06_policy_sim.ipynb. Same steps, printed to the terminal:
     1. The story and data: one M5 item, a year of real daily demand
     2. The (s, S) policy and the simulator
     3. Set s and S with formulas: safety stock + EOQ
@@ -9,7 +9,7 @@ Script version of 06_policy_sim.ipynb. Same steps, printed to the terminal:
     6. Lead-time uncertainty: what the safety stock formula's second term buys (Plotly)
 
 Needs data/processed/m5_ca1_daily.csv: run .venv/bin/python data/prepare_m5.py first.
-Run: .venv/bin/python notebooks/06_policy_sim.py
+Run: .venv/bin/python scripts/06_policy_sim.py
 """
 
 import math

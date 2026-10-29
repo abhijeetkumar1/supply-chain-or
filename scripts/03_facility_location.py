@@ -1,6 +1,6 @@
 """Day 2, exercise 3: Which DCs should Nike India open?
 
-Script version of 03_facility_location.ipynb. Same steps, printed to the terminal:
+Script version of notebooks/03_facility_location.ipynb. Same steps, printed to the terminal:
     1. The story and data: 5 candidate DC sites, 20 cities
     2. Why this isn't an LP: open/closed is a yes/no choice
     3. Solve by hand: try every combination of DCs (31 of them)
@@ -11,7 +11,7 @@ Script version of 03_facility_location.ipynb. Same steps, printed to the termina
     8. The same model in OR-Tools (SCIP)
     9. Scaling: solve time and MIP gap as the problem grows (Plotly)
 
-Run: .venv/bin/python notebooks/03_facility_location.py
+Run: .venv/bin/python scripts/03_facility_location.py
 """
 
 import itertools

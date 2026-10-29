@@ -1,6 +1,6 @@
 """Day 2, exercise 4: When should the factory run the production line?
 
-Script version of 04_lot_sizing.ipynb. Same steps, printed to the terminal:
+Script version of notebooks/04_lot_sizing.ipynb. Same steps, printed to the terminal:
     1. The story and data: a 12-week demand forecast, setup cost, holding cost
     2. Two hand plans: run every week vs. big batches
     3. Inventory balance: how the weeks link together
@@ -8,7 +8,7 @@ Script version of 04_lot_sizing.ipynb. Same steps, printed to the terminal:
     5. Big-M: why M should be as small as safely possible
     6. Change the setup cost and watch the plan change (Plotly chart)
 
-Run: .venv/bin/python notebooks/04_lot_sizing.py
+Run: .venv/bin/python scripts/04_lot_sizing.py
 """
 
 import math

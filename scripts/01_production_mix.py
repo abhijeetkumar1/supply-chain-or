@@ -1,6 +1,6 @@
 """Day 1, exercise 1: How many shoes should the factory make?
 
-Script version of 01_production_mix.ipynb. Same steps, printed to the terminal:
+Script version of notebooks/01_production_mix.ipynb. Same steps, printed to the terminal:
     1. The story and data
     2. Why we can't make everything
     3. Solve by hand: spend stitching hours on the best $ per stitching hour
@@ -10,7 +10,7 @@ Script version of 01_production_mix.ipynb. Same steps, printed to the terminal:
     7. Sweep stitching hours and chart what an extra hour is worth (Plotly)
     8. Where the hand rule breaks (1,100 stitching hours)
 
-Run: .venv/bin/python notebooks/01_production_mix.py
+Run: .venv/bin/python scripts/01_production_mix.py
 """
 
 from pathlib import Path

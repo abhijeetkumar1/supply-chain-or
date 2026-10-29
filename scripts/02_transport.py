@@ -1,6 +1,6 @@
 """Day 1, exercise 2: Which factory should ship to which DC?
 
-Script version of 02_transport.ipynb. Same steps, printed to the terminal:
+Script version of notebooks/02_transport.ipynb. Same steps, printed to the terminal:
     Part A - ship directly from factories to DCs (the "transportation problem")
         1. The story and data
         2. Can supply cover demand?
@@ -13,7 +13,7 @@ Script version of 02_transport.ipynb. Same steps, printed to the terminal:
         7. Add a West Coast hub that factories can ship through
         8. What is more hub capacity worth? (Plotly chart)
 
-Run: .venv/bin/python notebooks/02_transport.py
+Run: .venv/bin/python scripts/02_transport.py
 """
 
 from pathlib import Path
